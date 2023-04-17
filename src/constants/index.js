@@ -117,15 +117,15 @@ import {
   
   const experiences = [
     {
-      title: "Telephonic Engineer and Network Services",
+      title: "Telephony Engineer and Help Desk",
       company_name: "Infraplex - ISP",
       icon: infraplex,
       iconBg: "#383E56",
       date: "Decemebr 2018 - January 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Assisted clients with network issues and infrastructure repair",
+        "Telephony support relating to technical issues involving all telecommunications systems",
+        "Administration and maintenance of IP telephony servers, switches, routers, and gateways",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -136,14 +136,14 @@ import {
       iconBg: "#383E56",
       date: "Jan 2020 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing knowledge with computer systems",
+        "Excels in software development and systems design.",
+        "Well versed in Java, HTMl, CSS, Javascript, PHP, Dart, Delphi, SQL, C# and Python & Flask",
+        "Passed all modules with many distinctions.",
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Software Engineer",
       company_name: "Entelect",
       icon: entelect,
       iconBg: "#383E56",
@@ -191,15 +191,15 @@ import {
         "Web-based platform that allows users to search, book, and manage car services from Bosch Northcilff, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "php",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
@@ -207,20 +207,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Luno Tech",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Local E-commerce website. Developed as a template to hold and create my own custome website when I start my official business.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "sanity",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -233,15 +233,15 @@ import {
         "A comprehensivehotels application used to help farmers in South Africa deliver and sell their produce directly to restaurants and customers.",
       tags: [
         {
-          name: "nextjs",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "kotlin",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "python | flask",
           color: "pink-text-gradient",
         },
       ],
