@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
+    eduvos,
     starbucks,
     tesla,
-    shopify,
+    entelect,
     carrent,
     jobit,
     tripguide,
     threejs,
+    infraplex
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +119,7 @@ import {
     {
       title: "Telephonic Engineer and Network Services",
       company_name: "Infraplex - ISP",
-      icon: starbucks,
+      icon: infraplex,
       iconBg: "#383E56",
       date: "Decemebr 2018 - January 2020",
       points: [
@@ -129,10 +130,10 @@ import {
       ],
     },
     {
-      title: "Varsity - Bsc Information Technology Software Engineering",
+      title: "Varsity - Bsc Information Technology | Software Engineering",
       company_name: "Eduvos",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: eduvos,
+      iconBg: "#383E56",
       date: "Jan 2020 - December 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -144,8 +145,8 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Entelect",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      icon: entelect,
+      iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",

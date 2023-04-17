@@ -3,6 +3,16 @@ import { styles } from '../styles'
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
+
+  const handleDownload = () => {
+    const url = require("../assets/CV.pdf");
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'cv.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl flex mx-auto flex-row items-start gap-5`}>
