@@ -32,6 +32,9 @@ import infraplex from "./company/infraplex.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cashcrop from "./cashcrop.jpg";
+import lunotech from "./lunotech.png";
+import coinSearch from './coinSearch.png';
 
 export {
   logo,
@@ -64,5 +67,8 @@ export {
   tripguide,
   entelect,
   eduvos,
-  infraplex
+  infraplex,
+  cashcrop,
+  lunotech,
+  coinSearch
 };

@@ -23,7 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
-    infraplex
+    infraplex,
+    cashcrop,
+    lunotech,
+    coinSearch
   } from "../assets";
   
   export const navLinks = [
@@ -149,9 +152,9 @@ import {
       iconBg: "#383E56",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining good code that will keep clients happy and coming back.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing any application that needs to be created or maintained with a great team around me.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -186,25 +189,25 @@ import {
   
   const projects = [
     {
-      name: "Bosch Northcliff Web",
+      name: "Crypto Coin Search",
       description:
-        "Web-based platform that allows users to search, book, and manage car services from Bosch Northcilff, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search and view current and updated news on the top 50 crypto currencies, providing a convenient and efficient solution for crypto needs.",
       tags: [
         {
-          name: "html",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "php",
+          name: "Api's",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: coinSearch,
+      source_code_link: "https://github.com/CodingDyl/BoschWebsite.git",
     },
     {
       name: "Luno Tech",
@@ -224,13 +227,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: lunotech,
+      source_code_link: "https://github.com/CodingDyl/LunoTech-Site.git",
     },
     {
       name: "Cash Crop",
       description:
-        "A comprehensivehotels application used to help farmers in South Africa deliver and sell their produce directly to restaurants and customers.",
+        "A comprehensive mobile application used to help farmers in South Africa deliver and sell their produce directly to restaurants and customers.",
       tags: [
         {
           name: "flutter",
@@ -245,8 +248,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cashcrop,
+      source_code_link: "https://github.com/CodingDyl/CashCropVersionn1.git",
     },
   ];
   
