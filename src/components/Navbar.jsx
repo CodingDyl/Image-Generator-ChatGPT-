@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
-
+import DylansCV from '../../public/Dylan_CV.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -19,15 +19,33 @@ const Navbar = () => {
             <span className="sm:block hidden">| Full Stack Software Engineer</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => (
-            <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
-              <a href={`#${link.id}`}>
-                {link.title}
-              </a>
-            </li>
-          ))}
-        </ul>
+        
+        <div className="flex items-center gap-10">
+          <ul className="list-none hidden sm:flex flex-row gap-10">
+            {navLinks.map((link) => (
+              <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
+                <a href={`#${link.id}`}>
+                  {link.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <button
+            onClick={() => {
+              const url = DylansCV;
+              const link = document.createElement('a');
+              link.href = url;
+              link.setAttribute('download', 'cv.pdf');
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
+            className="hidden sm:block bg-secondary text-white font-bold py-2 px-4 rounded-lg shadow-lg hover:bg-tertiary transition duration-300"
+          >
+            Download CV
+          </button>
+        </div>
+
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)} />
 
