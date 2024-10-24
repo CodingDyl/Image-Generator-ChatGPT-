@@ -35,6 +35,8 @@ import tripguide from "./tripguide.png";
 import cashcrop from "./cashcrop.jpg";
 import lunotech from "./lunotech.png";
 import coinSearch from './coinSearch.png';
+import vaja from './vaja.png';
+import mpower from './mpower.png';
 
 export {
   logo,
@@ -70,5 +72,7 @@ export {
   infraplex,
   cashcrop,
   lunotech,
-  coinSearch
+  coinSearch,
+  vaja,
+  mpower
 };

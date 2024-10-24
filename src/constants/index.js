@@ -26,7 +26,9 @@ import {
     infraplex,
     cashcrop,
     lunotech,
-    coinSearch
+    coinSearch,
+    vaja,
+    mpower
   } from "../assets";
   
   export const navLinks = [
@@ -189,9 +191,9 @@ import {
   
   const projects = [
     {
-      name: "Crypto Coin Search",
+      name: "Vaja",
       description:
-        "Web-based platform that allows users to search and view current and updated news on the top 50 crypto currencies, providing a convenient and efficient solution for crypto needs.",
+        "A elegant and modern website for a local business. This was built using React and Tailwind CSS. I have incorporated a lot of animations to make the website more interactive and user friendly.",
       tags: [
         {
           name: "React",
@@ -206,8 +208,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: coinSearch,
-      source_code_link: "https://github.com/CodingDyl/BoschWebsite.git",
+      image: vaja,
+      source_code_link: "https://vaja-web.vercel.app",
     },
     {
       name: "Luno Tech",
@@ -231,16 +233,16 @@ import {
       source_code_link: "https://github.com/CodingDyl/LunoTech-Site.git",
     },
     {
-      name: "Cash Crop",
+      name: "mPowerRatings",
       description:
-        "A comprehensive mobile application used to help farmers in South Africa deliver and sell their produce directly to restaurants and customers.",
+        "This is a website built for a local business. This incorporates a lot of animations and is built using React and Tailwind CSS.",
       tags: [
         {
-          name: "flutter",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "kotlin",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
@@ -248,8 +250,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: cashcrop,
-      source_code_link: "https://github.com/CodingDyl/CashCropVersionn1.git",
+      image: mpower,
+      source_code_link: "https://www.mpowerratings.co.za",
     },
   ];
   
