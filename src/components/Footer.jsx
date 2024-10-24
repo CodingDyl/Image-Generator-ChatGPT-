@@ -17,7 +17,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/codingdyl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white transition-colors"
@@ -33,7 +33,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/dylan-petzer"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white transition-colors"

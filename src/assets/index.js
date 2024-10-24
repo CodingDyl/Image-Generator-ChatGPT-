@@ -37,6 +37,8 @@ import lunotech from "./lunotech.png";
 import coinSearch from './coinSearch.png';
 import vaja from './vaja.png';
 import mpower from './mpower.png';
+import plsteel from './plsteel.png';
+import dall from './dall.png';
 
 export {
   logo,
@@ -74,5 +76,7 @@ export {
   lunotech,
   coinSearch,
   vaja,
-  mpower
+  mpower,
+  plsteel,
+  dall
 };

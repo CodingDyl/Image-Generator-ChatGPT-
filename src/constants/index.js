@@ -28,7 +28,9 @@ import {
     lunotech,
     coinSearch,
     vaja,
-    mpower
+    mpower,
+    plsteel,
+    dall
   } from "../assets";
   
   export const navLinks = [
@@ -191,27 +193,6 @@ import {
   
   const projects = [
     {
-      name: "Vaja",
-      description:
-        "A elegant and modern website for a local business. This was built using React and Tailwind CSS. I have incorporated a lot of animations to make the website more interactive and user friendly.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Api's",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: vaja,
-      source_code_link: "https://vaja-web.vercel.app",
-    },
-    {
       name: "Luno Tech",
       description:
         "Local E-commerce website. Developed as a template to hold and create my own custome website when I start my official business.",
@@ -230,7 +211,7 @@ import {
         },
       ],
       image: lunotech,
-      source_code_link: "https://github.com/CodingDyl/LunoTech-Site.git",
+      source_code_link: "https://luno-tech-site.vercel.app",
     },
     {
       name: "mPowerRatings",
@@ -252,6 +233,69 @@ import {
       ],
       image: mpower,
       source_code_link: "https://www.mpowerratings.co.za",
+    },
+    {
+      name: "PL Steel",
+      description:
+        "This website was built for a client in the steel industry. This incorporates a lot of animations and is built using React and Tailwind CSS.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python | flask",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: plsteel,
+      source_code_link: "https://www.plsteel.co.za",
+    },
+    {
+      name: "Vaja",
+      description:
+        "A elegant and modern website for a local business. This was built using React and Tailwind CSS. I have incorporated a lot of animations to make the website more interactive and user friendly.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Api's",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vaja,
+      source_code_link: "https://vaja-web.vercel.app",
+    },
+    {
+      name: "Dall-e Clone",
+      description:
+        "My fun take on AI image generation. Take a prompt and generate an image. Fun little project to mess around with.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Api's",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dall,
+      source_code_link: "https://dall-e-nu-one.vercel.app",
     },
   ];
   
